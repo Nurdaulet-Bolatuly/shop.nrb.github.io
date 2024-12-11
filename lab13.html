@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<style>
+       
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Қыстық сырт киімдер <span class="badge bg-secondary">Жаңа</span></h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="coj3.html">Үй</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Байланыс</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide my-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://naprolomshop.ru/pictures/carousel/6558.jpg" class="d-block w-100" alt="..." width="1050" height="470">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2XGRAmwIjbtO26l1NmgLjuE2lJoZMFURoA&s" class="d-block w-100" alt="..." width="1050" height="470">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwUCEFyALd2DfO7wNlhdJgg0-ZgPzJm9otw&s" class="d-block w-100" alt="..." width="1050" height="470">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-bs-toggle="pill" href="#home">Басты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-bs-toggle="pill" href="#profile">Профиль</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-bs-toggle="pill" href="#contact">Байланыс</a>
+            </li>
+        </ul>
+        <div class="tab-content mt-3">
+            <div class="tab-pane fade show active" id="home">
+                <h5>Басты</h5>
+                <p>Бұл — басты бөлімінің мазмұны.</p>
+            </div>
+            <div class="tab-pane fade" id="profile">
+                <h5>Профиль</h5>
+                <p>Бұл — профиль бөлімінің мазмұны.</p>
+            </div>
+            <div class="tab-pane fade" id="contact">
+                <h5>Байланыс</h5>
+                <p>Бұл — байланыс бөлімінің мазмұны.</p>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ir-3.ozone.ru/s3/multimedia-c/wc1000/6809365488.jpg" class="card-img-top" alt="..." width="550" height="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Қыстық куртка</h5>
+                        <p class="card-text">Бұл сіздің ең жылы киіміңіз!</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Сатып алу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ir-3.ozone.ru/s3/multimedia-2/wc1000/6773209490.jpg" class="card-img-top" alt="..." width="550" height="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Қыстық спортивки</h5>
+                        <p class="card-text">Спорттық стильдегі жылы киім.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Сатып алу</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ir-3.ozone.ru/s3/multimedia-1-5/wc1000/7147827617.jpg" class="card-img-top" alt="..." width="550" height="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Қыстық етіктер</h5>
+                        <p class="card-text">Суық күндер үшін керемет таңдау!</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Сатып алу</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#extraInfo">
+            Қосымша ақпаратты көру
+        </button>
+        <div class="collapse mt-3" id="extraInfo">
+            <div class="card card-body">
+                Біздің дүкенімізден ең жылы және сапалы қыстық киімдер таба аласыз!
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion my-5" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    Төлем тәсілдері
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Төлемді қолма-қол, банк картасымен немесе онлайн жасай аласыз.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    Жеткізу шарттары
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Қазақстан бойынша жеткізу 3-5 жұмыс күні ішінде жүзеге асырылады.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Өнім туралы мәлімет</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Қыстық куртка сатылымда! Толығырақ ақпарат үшін хабарласыңыз.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Жабу</button>
+                    <button type="button" class="btn btn-primary">Сатып алу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">NRB shop</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                Қош келдіңіз! Қыстық киімдер ұсынылуда!
+            </div>
+        </div>
+    </div>
+
+    <script>
+        <script>
+       
+        function showToast() {
+            const toastLiveExample = document.getElementById('liveToast');
+            const toast = new bootstrap.Toast(toastLiveExample);
+            toast.show();
+        }
+    </script>
+    
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Байланыс ақпарат: nurdaulet@gmail.com | +7 (776) 826-89-22</p>
+        <p>&copy; 2024 NRB shop</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
